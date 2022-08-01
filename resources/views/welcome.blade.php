@@ -16,7 +16,7 @@
         <nav id="navBar">
             <img src="img/logo.png" class="logo">
             <ul class="nav-links">
-                <li><a href="Hosting.html" class="a1">Host a Place</a> </li>
+                <li><a href="{{url('/host')}}" class="a1">Host a Place</a> </li>
                 <li><a href="{{url('/search')}}" class="a2">Search for Rent</a> </li>
                 <li><a href="listing.html" class="a3">Popular Places</a> </li>
             </ul>

@@ -16,8 +16,8 @@ return new class extends Migration
         Schema::create('houses', function (Blueprint $table) {
             $table->id();
             $table->text('content');
-            $table->foreignId('');
-            $table->
+            
+            
             $table->timestamps();
         });
     }
